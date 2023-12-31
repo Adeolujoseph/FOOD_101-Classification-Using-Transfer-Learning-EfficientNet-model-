@@ -5,7 +5,7 @@ classifying the food101 dataset using cnn
 Dataset contains 101,000 images of different foods. 101 food categories representing 101 classes, 750 training images and 250 test images for each class. Image Size varies but max is : 512x512 pixels, Channels: RGB (3 channels). The dataset is directly downloaded using the TorchVision library's datasets.Food101 module
 
 ## Dependencies
-Python 3.x PyTorch Torch Torchvision Matplotlib NumPy
+Python 3.x PyTorch Torch Torchvision Matplotlib NumPy sklearn
 
 ## Preprocessing
 Resized to 256* 256. Random affine transformations including rotation, translation, and scaling. Random resized crop to a size of 256x256 pixels, with a scaling factor ranging from 0.75 to 1 times the original size.
